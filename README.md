@@ -8,6 +8,12 @@ Aplicación web construida con **React** (frontend) y **Node.js** (backend) para
 
 ### 1. Instala Node.js (si no lo tienes)
 
+Opción 1:
+
+- Desde el centro de Software o poniendo en SIETE 'instalar node'.
+
+Opción 2:
+
 - Ve a [https://nodejs.org/](https://nodejs.org/)
 - Descarga la **versión LTS** (recomendada)
 - Ejecuta el instalador y acepta todo por defecto
@@ -35,21 +41,30 @@ cd imeis-asignados
 npm install
 ```
 
-### 3. Ejecuta el servidor backend (Node.js)
+## 🚀 Ejecuta el programa
+
+### Opción 1:
 
 ```bash
-node server.js
+  - Ejecuta el archivo start.bat con doble clic
 ```
 
-### 4. Inicia el frontend (React)
 
-En otra consola (nueva ventana), ejecuta:
 
+### Opción 2: 
 ```bash
-cd imeis-asignados
-npm start
-```
+  - Ejecuta el servidor backend (Node.js):
 
+      node server.js
+
+  - Inicia el frontend (React):
+
+      En otra consola (nueva ventana), ejecuta:
+        
+        cd imeis-asignados
+        npm start
+   
+```
 ---
 
 ## 🛠️ Funcionalidad
