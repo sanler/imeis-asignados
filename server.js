@@ -6,11 +6,11 @@ const { procesarCodigosDesdeExcelEntrada } = require('./procesarCodigosDesdeExce
 const { insertarDatos } = require('./src/components/insertarDatos'); // <-- importa aquí
 const { gestorDeOpcionesAB } = require('./src/components/gestorDeOpcionesAB'); 
 // Constantes
-const rutaArchivo = 'C:/Users/t151744/OneDrive - Telefonica/IMEI/imeis-asignados/IMEIS.xlsx';
+const rutaArchivo = 'C:/Users/t151744/OneDrive - Telefonica/IMEI/PROGRAMAIMEIS/IMEIS.xlsx';
 const nombreHoja = 'Sheet1';
 const columna = 6;
-const rutaExcelEntrada = 'C:/Users/t151744/OneDrive - Telefonica/IMEI/imeis-asignados/entrada.xlsx';
-const rutaJson = 'C:/Users/t151744/OneDrive - Telefonica/IMEI/imeis-asignados/datos.json';
+const rutaExcelEntrada = 'C:/Users/t151744/OneDrive - Telefonica/IMEI/PROGRAMAIMEIS/entrada.xlsx';
+const rutaJson = 'C:/Users/t151744/OneDrive - Telefonica/IMEI/PROGRAMAIMEIS/datos.json';
 
 const app = express();
 app.use(cors());
