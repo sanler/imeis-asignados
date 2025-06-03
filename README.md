@@ -10,8 +10,7 @@ Aplicación web construida con **React** (frontend) y **Node.js** (backend) para
 git clone https://github.com/sanler/imeis-asignados.git
 cd imeis-asignados
 
-
-2. Instala las dependencias del backend:
+2. ** Instala las dependencias del backend:**
 
 npm install
 
