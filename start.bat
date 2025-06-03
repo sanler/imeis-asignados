@@ -1,0 +1,6 @@
+@echo off
+echo Iniciando servidor Node.js...
+start cmd /k "node server.js"
+timeout /t 3 >nul
+echo Iniciando app React...
+start cmd /k "npm start"

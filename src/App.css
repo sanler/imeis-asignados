@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.mensaje {
+  background-color: #e0ffe0;
+  color: #006400;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid #00a000;
+  border-radius: 5px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.error {
+  background-color: #ffe0e0;
+  color: #a00000;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  max-width: 600px;
+  text-align: left;
+}
