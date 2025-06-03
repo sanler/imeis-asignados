@@ -1,13 +1,15 @@
-# IMEIs Asignados
+# 📱 IMEIs Asignados
 
-Aplicación web construida con React (frontend) y Node.js (backend) para gestionar y asignar rangos de IMEIs automáticamente desde archivos Excel.
+Aplicación web construida con **React** (frontend) y **Node.js** (backend) para gestionar y asignar rangos de IMEIs automáticamente desde archivos Excel.
 
-## Instalación
+## 🚀 Instalación
 
-1. Clona el repositorio:
+1. **Clona el repositorio:**
 
+```bash
 git clone https://github.com/sanler/imeis-asignados.git
 cd imeis-asignados
+
 
 2. Instala las dependencias del backend:
 
